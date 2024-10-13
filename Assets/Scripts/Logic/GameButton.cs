@@ -18,6 +18,7 @@ namespace Logic
         public void GameButtonClicked()
         {
             Player.Move();
+            print("HIIWSISISI");
         }
     }
 }

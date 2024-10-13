@@ -7,8 +7,10 @@ namespace Logic
 {
     public class Player : MonoBehaviour
     {
-        public Action IsDead;
+        [SerializeField] private float _speed;
         
+        public Action IsDead;
+
         private WayPoints _wayPoints;
         private int _currentPointID;
         private bool _canMove = true;
@@ -40,7 +42,7 @@ namespace Logic
         private void MoveToNextPoint(Transform objectToMove, Vector3 at)
         {
             _canMove = false;
-            objectToMove.DOMove(at, 1).OnComplete(() => _canMove = true);
+            objectToMove.DOMove(at, _speed).OnComplete(() => _canMove = true);
         }
     }
 }
