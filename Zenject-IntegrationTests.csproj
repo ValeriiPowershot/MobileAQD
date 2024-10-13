@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3614f565-b1f3-e008-8026-802b571389f3}</ProjectGuid>
+    <ProjectGuid>{1b4b409c-3a07-e7cf-c288-c8df59a5468f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -465,10 +465,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.20f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\GitHubProjects\MobileAQ\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Zenject-usage">
-      <HintPath>D:\GitHubProjects\MobileAQ\Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.20f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -852,25 +852,25 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.20f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:\GitHubProjects\MobileAQ\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:\GitHubProjects\MobileAQ\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\GitHubProjects\MobileAQ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\GitHubProjects\MobileAQ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\GitHubProjects\MobileAQD\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zenject-TestFramework.csproj">
-      <Project>{8a92d682-0d58-1eb9-a383-709f870cfae7}</Project>
+      <Project>{201f6445-0007-525a-7dd6-204b4f2ebb55}</Project>
       <Name>Zenject-TestFramework</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject.csproj">
-      <Project>{ce240984-b7f3-8483-e5eb-352aa8af9a3b}</Project>
+      <Project>{0381af64-5ab5-568d-46a3-8c0e337b5bdb}</Project>
       <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
